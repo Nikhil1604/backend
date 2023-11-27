@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 const Navbar = () => {
   return (
     <Box>
-        <AppBar sx={{bgcolor:'#fafafa'}}>
+        <AppBar sx={{bgcolor:'#fafafa'}} position='static'>
             <Toolbar>
             <Grid container alignItems='center'>
             <Grid xs={2}>
