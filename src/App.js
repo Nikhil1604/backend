@@ -1,11 +1,15 @@
 
 import './App.css';
-import Welcome from './components/Welcome';
+import SideBar from './Sidebar/SideBar';
+// import Dashboard from './components/Dashboard';
+// import Welcome from './components/Welcome';
 
 function App() {
   return (
     <>
-    <Welcome />
+    {/* <Welcome /> */}
+    {/* <Dashboard/> */}
+    <SideBar/>
     </>
     );
 }
