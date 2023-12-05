@@ -16,7 +16,7 @@ const SideBar = () => {
                     {   menuitems.map((item,index)=>(
                             <ListItem key={index}>
                             <ListItemButton sx={{p:'0'}}>
-                                <Button variant='contained' size='small' sx={{width:'100%',color:'#212121',bgcolor:'#fafafa'}}>{item}</Button>
+                                <Button variant='contained' size='small'  sx={{width:'100%',color:'#212121',bgcolor:'#fafafa',fontSize:'12px',fontWeight:'550'}}>{item}</Button>
                             </ListItemButton>
                             </ListItem>
                       ))}
@@ -28,7 +28,7 @@ const SideBar = () => {
                     {   businessitems.map((item,index)=>(
                             <ListItem key={index}>
                             <ListItemButton sx={{p:'0'}}>
-                                <Button variant='contained' size='small' sx={{width:'100%',color:'#212121',bgcolor:'#fafafa'}}>{item}</Button>
+                                <Button variant='contained' size='small' sx={{width:'100%',color:'#212121',bgcolor:'#fafafa',fontSize:'12px',fontWeight:'550'}}>{item}</Button>
                             </ListItemButton>
                             </ListItem>
                       ))}

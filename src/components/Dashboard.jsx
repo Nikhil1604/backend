@@ -1,8 +1,11 @@
 import React from 'react'
 import Navbar from '../Header/Navbar'
 import SideBar from '../Sidebar/SideBar'
-import DashDetails from './DashDetails'
+// import DashDetails from './DashDetails'
 import { Grid } from '@mui/material'
+import ServiceProviderView from './ServiceProviderView'
+// import User from './User'
+// import ServiceProvider from './ServiceProvider'
 
 const Dashboard = () => {
   return (
@@ -13,7 +16,10 @@ const Dashboard = () => {
     <SideBar/>
     </Grid>
     <Grid xs={10}>
-    <DashDetails/>
+    {/* <DashDetails/> */}
+    {/* <User/> */}
+    {/* <ServiceProvider /> */}
+    <ServiceProviderView />
     </Grid>
     </Grid>
     </>
