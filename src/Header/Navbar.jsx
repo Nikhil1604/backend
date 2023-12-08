@@ -19,7 +19,7 @@ const Navbar = () => {
             </Grid>
             
             <Grid xs={5} container  direction='row' justifyContent='flex-end'>
-            <Button variant='contained' color='error' doubleElivated >Logout</Button>
+            <Button variant='contained' sx={{bgcolor:'#ff258d'}} doubleElivated >Logout</Button>
             </Grid>
             </Grid>
 
