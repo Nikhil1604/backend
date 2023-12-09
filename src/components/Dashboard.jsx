@@ -4,7 +4,9 @@ import SideBar from '../Sidebar/SideBar'
 // import DashDetails from './DashDetails'
 import { Grid } from '@mui/material'
 // import Coupons from './Coupons'
-import Subscription from './Subscription'
+// import Subscription from './Subscription'
+// import Invoices from './Invoices'
+import Notifications from './Notifications'
 // import Conditions from './Conditions'
 // import Policy from './Policy'
 // import ServiceProviderView from './ServiceProviderView'
@@ -27,7 +29,9 @@ const Dashboard = () => {
     {/* <Policy/> */}
     {/* <Conditions/> */}
     {/* <Coupons/> */}
-    <Subscription />
+    {/* <Subscription /> */}
+    {/* <Invoices/> */}
+    <Notifications />
     </Grid>
     </Grid>
     </>
