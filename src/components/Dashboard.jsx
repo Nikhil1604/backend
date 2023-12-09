@@ -3,7 +3,8 @@ import Navbar from '../Header/Navbar'
 import SideBar from '../Sidebar/SideBar'
 // import DashDetails from './DashDetails'
 import { Grid } from '@mui/material'
-import Coupons from './Coupons'
+// import Coupons from './Coupons'
+import Subscription from './Subscription'
 // import Conditions from './Conditions'
 // import Policy from './Policy'
 // import ServiceProviderView from './ServiceProviderView'
@@ -25,7 +26,8 @@ const Dashboard = () => {
     {/* <ServiceProviderView /> */}
     {/* <Policy/> */}
     {/* <Conditions/> */}
-    <Coupons/>
+    {/* <Coupons/> */}
+    <Subscription />
     </Grid>
     </Grid>
     </>
